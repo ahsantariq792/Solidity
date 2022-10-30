@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Basics/artifacts/01.Hello Word.sol": "HelloWorld"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Basics/artifacts/01.Hello Word.sol": {
+			"keccak256": "0xc125adec46a972d8d598051a794a70d91cda8f26bdb1110a2649114c7b9d3022",
+			"urls": [
+				"bzzr://d5436a0d6fc5673c4f21dd915ddb5c4c0ee412579b27fe4c392502993f4ae916"
+			]
+		}
+	},
+	"version": 1
+}

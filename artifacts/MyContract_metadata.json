@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "data",
+				"outputs": [
+					{
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"name": "class",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_rollnumber",
+						"type": "uint256"
+					},
+					{
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"name": "_class",
+						"type": "uint256"
+					}
+				],
+				"name": "Setter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Basics/11.Mapping.sol": "MyContract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Basics/11.Mapping.sol": {
+			"keccak256": "0x026f30ad18bea9b19e5b372d9b85bd672a115ad8d35294772514fef082dee3e6",
+			"urls": [
+				"bzzr://518e1829ca049bd095553bb502f3899039c4ff1f59eca839000931ca8a457433"
+			]
+		}
+	},
+	"version": 1
+}

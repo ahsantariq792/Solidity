@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "s1",
+				"outputs": [
+					{
+						"name": "rollnumber",
+						"type": "uint256"
+					},
+					{
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_rollnumber",
+						"type": "uint256"
+					},
+					{
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "change",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_rollnumber",
+						"type": "uint256"
+					},
+					{
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity Basics/10.structure.sol": "Structure"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity Basics/10.structure.sol": {
+			"keccak256": "0xddedadb48c160d593ef64c652228b2be6e49d71465920126ae925b233c3f73e5",
+			"urls": [
+				"bzzr://80cff6837ff49c566c01045915add01d9fa089d67b66bc60dcf29a355e1bfee9"
+			]
+		}
+	},
+	"version": 1
+}
